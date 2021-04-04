@@ -2,6 +2,9 @@
  * File:   LCDscreen
  * Author: Jose Borrayo @Harding University
  * Created on January 29, 2021, 10:50 PM
+ * About: the LCD screen for this project is a 16x1 LCD screen. It can work for 16x2 or even 40x4 LCD screens.
+ * In the case of a 40x4 LCD screen, an extra E2 enable is needed and you have to initialize the LCD screen two times:
+ * for the first two rows (ENABLE 1) and for the second two rows (ENABLE 2).
  */
 
 
