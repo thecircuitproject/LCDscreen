@@ -50,8 +50,8 @@ void lcd_command(unsigned char cmd)
     E1 = 0;
 }
 
-void lcd_string(const unsigned char *str,unsigned char num){
-    unsigned char i;
+void lcd_string(const unsigned char *str,unsigned int num){
+    unsigned int i;
     for(i=0;i<num;i++){
         lcd_data(str[i]);
     }
